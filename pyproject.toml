@@ -9,6 +9,8 @@ packages = [{include = "mentoria_lead"}]
 [tool.poetry.dependencies]
 python = "3.10.6"
 pandas = "^1.5.1"
+sklearn = "^0.0"
+yellowbrick = "^1.5"
 
 
 [tool.poetry.group.dev.dependencies]
