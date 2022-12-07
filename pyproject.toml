@@ -11,10 +11,19 @@ python = "3.10.6"
 pandas = "^1.5.1"
 sklearn = "^0.0"
 yellowbrick = "^1.5"
+Gymnasium = "^0.26.3"
+tensorflow = "^2.11.0"
+tqdm = "^4.64.1"
+mujoco = "^2.3.0"
+imageio = "^2.22.4"
+gym = "^0.26.2"
 
 
 [tool.poetry.group.dev.dependencies]
 tensorflow = "^2.10.0"
+flake8 = "^6.0.0"
+ipykernel = "^6.17.1"
+pygame = "^2.1.2"
 
 [build-system]
 requires = ["poetry-core"]
