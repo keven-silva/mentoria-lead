@@ -17,6 +17,9 @@ tqdm = "^4.64.1"
 mujoco = "^2.3.0"
 imageio = "^2.22.4"
 gym = "^0.26.2"
+nltk = "^3.7"
+spacy = "^3.4.3"
+seaborn = "^0.12.1"
 
 
 [tool.poetry.group.dev.dependencies]
